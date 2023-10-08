@@ -59,3 +59,5 @@ nnoremap <leader>c :set cursorline!<CR>
 nnoremap <leader>C :set cursorcolumn!<CR>
 nnoremap <leader>n :set number!<CR>
 
+"Yaml specific setting
+autocmd FileType yaml setlocal ai ts=2 et sw=2
